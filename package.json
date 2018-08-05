@@ -4,6 +4,7 @@
   "author": "JR93 <gjr_china@163.com>",
   "scripts": {
     "ct": "git-cz",
+    "log": "lerna-changelog",
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
@@ -48,6 +49,17 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "changelog": {
+    "repo": "JR93/monorepo-template",
+    "labels": {
+      "breaking": ":boom: Breaking Change",
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "documentation": ":memo: Documentation",
+      "internal": ":house: Internal"
+    },
+    "cacheDir": ".changelog"
   },
   "engines": {
     "node": ">= 8.9.3"
