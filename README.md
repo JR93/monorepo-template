@@ -7,11 +7,19 @@
 ### 全局安装 lerna
 
 ```
-npm i -g lerna
+npm i -g lerna or yarn global add lerna
 ```
 
-### clone
+### clone 项目
 
 ```
 git clone git@github.com:JR93/monorepo-template.git
 ```
+
+### 安装本地依赖
+
+```
+npm i or yarn
+```
+
+**关于 lerna 的使用参见[官方文档](https://github.com/lerna/lerna)**
