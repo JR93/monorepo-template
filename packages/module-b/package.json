@@ -1,0 +1,13 @@
+{
+  "name": "@jr93/module-b",
+  "version": "0.0.0",
+  "description": "module-b",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@jr93/module-a": "^0.0.0"
+  }
+}
