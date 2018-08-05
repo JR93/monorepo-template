@@ -5,7 +5,8 @@
   "scripts": {
     "ct": "git-cz",
     "log": "lerna-changelog",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
